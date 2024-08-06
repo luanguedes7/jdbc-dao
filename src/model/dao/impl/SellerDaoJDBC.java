@@ -20,7 +20,6 @@ public class SellerDaoJDBC implements SellerDao {
 	
 	private Connection conn;
 	
-
 	public SellerDaoJDBC(Connection conn) {
 		this.conn = conn;
 	}
@@ -90,7 +89,6 @@ public class SellerDaoJDBC implements SellerDao {
 			DB.closeStatement(st);
 		}
 	}
-
 	
 	@Override
 	public void deleteById(Integer id) {
